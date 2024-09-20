@@ -1,70 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Faster UI</title>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Styles -->
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <link rel="stylesheet" href="./styles/responsive.css" />
-  </head>
-  <body>
-    <!-- header -->
-    <section class="container">
-      <div class="navbar">
-        <img src="./assets/Logo.png" alt="logo" />
-        <div>
-          <h4>Home</h4>
-          <h4>About</h4>
-          <h4>How It Works</h4>
-          <h4>Services</h4>
-        </div>
-        <div>
-          <h4>Sign In</h4>
-          <button>Sign Up</button>
-        </div>
-      </div>
-    </section>
-  </body>
-  <script src="./js/ollyo.js"></script>
-</html>
-* {
-  margin: 0;
-  padding: 0;
-  background-color: #f5f8ff;
-  box-sizing: border-box; /* Ensures padding and borders are included in the element's total width/height */
-}
-
-body {
-  font-family: "Inter", sans-serif;
-}
-
-
-h1 {
-  font-family: "Raleway", sans-serif;
-}
-
-.container {
-  max-width: 1440px; /* Set the maximum width */
-  margin: 0 auto;    /* Center the container */
-  padding: 0 20px;   /* Optional: Add padding for smaller screens */
-}
-
-.navbar {
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-now name those navlinks flex. add this 
-width: 499px;
-height: 68px;
-border-radius: 20px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-bg-background: #FFFFFF99;
-border: 1px solid #FFFFFF
+Widt
+h
+280px
+Heigh
+t
+252px
+add this box 1,2,3,6
+Widt
+h
+280px
+Heigh
+t
+536px
+for box 4
+Widt
+h
+592px
+Heigh
+t
+252px
+for box 5
