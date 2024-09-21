@@ -14,7 +14,7 @@ h2 {
   font-family: "Raleway", sans-serif;
   color: #252432;
   font-weight: 700;
-  line-height: 72px;
+  /* line-height: 72px; */
 }
 
 .container {
@@ -135,7 +135,7 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .box {
@@ -217,4 +217,73 @@ h2 {
 .box6 {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
+}
+
+/* Our work */
+
+.work-bg {
+  position: absolute;
+  mix-blend-mode: color-burn;
+  margin-left: 300px;
+}
+
+.work-header {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.work-header img {
+  background-color: white;
+  padding: 30px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.work-title h1 {
+  color: #252432;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  width: 764px;
+  font-size: 60px;
+}
+
+.work-title p {
+  max-width: 600px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 90px;
+}
+
+.slider-1 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+}
+
+.slider-2 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.slider-3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  border-radius: 20px;
 }

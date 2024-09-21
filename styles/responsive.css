@@ -1,4 +1,4 @@
-/* Responsive Styles for Tablets and Smaller Devices */
+
 
 @media only screen and (max-width: 768px) {
   body {
@@ -178,3 +178,41 @@
     height: 150px;
   }
 }
+
+
+/* 
+
+@media (max-width: 768px) {
+  .work-header {
+    flex-direction: column;
+    gap: 40px; 
+  }
+
+  .work-header img {
+    margin-top: 20px;
+    padding: 20px; 
+  }
+
+  .work-title h1 {
+    width: 100%; 
+    font-size: 40px; 
+  }
+
+  .work-title p {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px; 
+  }
+
+  .slider {
+    flex-direction: column;
+    margin-top: 50px; 
+  }
+
+  .slider-1, .slider-2, .slider-3 {
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+}
+ */
