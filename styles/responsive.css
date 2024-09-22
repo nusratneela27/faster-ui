@@ -1,4 +1,4 @@
-
+/* Responsive Styles for Tablets and Smaller Devices */
 
 @media only screen and (max-width: 768px) {
   body {
@@ -102,6 +102,44 @@
     width: 100%;
     height: 180px;
   }
+
+  /* our work */
+  .work-bg{
+    margin-left: 0px;
+    width: 100%;
+
+  }
+  .work-header img {
+    margin-top: 10px;
+    padding: 10px; 
+  }
+
+  .work-title h1 {
+    width: 100%; 
+    font-size: 25px; 
+  }
+
+  .work-title p {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 10px; 
+  }
+
+  .slider {
+    margin-top: 50px; 
+  }
+  .slider-1 {
+    display: none;
+  }
+  
+  .slider-2 img{
+    width: 100%;
+  }
+  
+  .slider-3 {
+   display: none;
+  }
 }
 
 /* Responsive Styles for Mobile Devices */
@@ -177,42 +215,77 @@
   .webflow {
     height: 150px;
   }
-}
 
+  /* our work */
+  .work-bg{
+    margin-left: 0px;
+    width: 100%;
 
-/* 
-
-@media (max-width: 768px) {
-  .work-header {
-    flex-direction: column;
-    gap: 40px; 
   }
-
   .work-header img {
-    margin-top: 20px;
-    padding: 20px; 
+    margin-top: 10px;
+    padding: 10px; 
   }
 
   .work-title h1 {
     width: 100%; 
-    font-size: 40px; 
+    font-size: 25px; 
   }
 
   .work-title p {
     max-width: 100%;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 16px; 
+    font-size: 10px; 
   }
 
   .slider {
-    flex-direction: column;
     margin-top: 50px; 
   }
-
-  .slider-1, .slider-2, .slider-3 {
-    width: 100%; 
-    margin-bottom: 20px; 
+  .slider-1 {
+    display: none;
   }
+  
+  .slider-2 img{
+    width: 100%;
+  }
+  
+  .slider-3 {
+   display: none;
+  }
+
+  /* ratings */
+  .ratings {
+    height: 83px;
+    width: auto;
+  }
+
+  .ratings-div p{
+    text-wrap: wrap;
+  }
+
+  
+/* pricing */
+.pricing {
+  flex-direction: column;
 }
- */
+
+.p-box-1 h1{
+padding: 20px;
+}
+
+.p-box-1 p {
+  padding: 20px;
+}
+
+.p-box-2 {
+  width: auto;
+  height: auto;
+}
+
+.price-info h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+}
+

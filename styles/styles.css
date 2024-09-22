@@ -14,7 +14,7 @@ h2 {
   font-family: "Raleway", sans-serif;
   color: #252432;
   font-weight: 700;
-  /* line-height: 72px; */
+  line-height: 72px;
 }
 
 .container {
@@ -286,4 +286,157 @@ h2 {
   padding-bottom: 30px;
   padding-left: 30px;
   border-radius: 20px;
+}
+
+/* Ratings */
+
+.ratings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  margin: 70px auto;
+  border: 1px solid #e4eaf8;
+  border-radius: 20px;
+  height: 83px;
+  width: 409px;
+}
+
+.ratings-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.ratings-div p {
+  text-wrap: nowrap;
+}
+
+
+/* pricing */
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.p-box-1 h1 {
+  color: #252432;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.p-box-1 p {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 330px;
+  height: 63px;
+}
+
+.p-box-1-div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 387px;
+  height: 238px;
+  font-size: 27px;
+  color: #252432;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.p-box-1-div button {
+  background-color: #4e47ff;
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+}
+
+.p-box-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 624px;
+  height: 497px;
+}
+
+.p-box-2 h1 {
+  font-size: 34.07px;
+  color: #252432;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+/* Outer container flex */
+.main-req-div {
+  display: flex;
+  gap: 50px;
+}
+.unlimited-req {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+}
+
+.unlimited-req > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.unlimited-req img {
+  width: 24px;
+  height: 24px;
+}
+
+.unlimited-req p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F5F8FF;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.price-info {
+  display: flex;
+  align-items: baseline; 
+  gap: 5px;
+}
+
+.price-info h3 {
+  color: #252432;
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.price-info p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.price-container img {
+  width: 24px;
+  height: auto;
 }
