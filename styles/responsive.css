@@ -104,41 +104,40 @@
   }
 
   /* our work */
-  .work-bg{
+  .work-bg {
     margin-left: 0px;
     width: 100%;
-
   }
   .work-header img {
     margin-top: 10px;
-    padding: 10px; 
+    padding: 10px;
   }
 
   .work-title h1 {
-    width: 100%; 
-    font-size: 25px; 
+    width: 100%;
+    font-size: 25px;
   }
 
   .work-title p {
     max-width: 100%;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 10px; 
+    font-size: 10px;
   }
 
   .slider {
-    margin-top: 50px; 
+    margin-top: 50px;
   }
   .slider-1 {
     display: none;
   }
-  
-  .slider-2 img{
+
+  .slider-2 img {
     width: 100%;
   }
-  
+
   .slider-3 {
-   display: none;
+    display: none;
   }
 }
 
@@ -196,8 +195,8 @@
   }
 
   .box {
-    margin-bottom: 20px; 
-    width: 100%; 
+    margin-bottom: 20px;
+    width: 100%;
   }
 
   .box img {
@@ -217,41 +216,40 @@
   }
 
   /* our work */
-  .work-bg{
+  .work-bg {
     margin-left: 0px;
     width: 100%;
-
   }
   .work-header img {
     margin-top: 10px;
-    padding: 10px; 
+    padding: 10px;
   }
 
   .work-title h1 {
-    width: 100%; 
-    font-size: 25px; 
+    width: 100%;
+    font-size: 25px;
   }
 
   .work-title p {
     max-width: 100%;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 10px; 
+    font-size: 10px;
   }
 
   .slider {
-    margin-top: 50px; 
+    margin-top: 50px;
   }
   .slider-1 {
     display: none;
   }
-  
-  .slider-2 img{
+
+  .slider-2 img {
     width: 100%;
   }
-  
+
   .slider-3 {
-   display: none;
+    display: none;
   }
 
   /* ratings */
@@ -260,32 +258,50 @@
     width: auto;
   }
 
-  .ratings-div p{
+  .ratings-div p {
     text-wrap: wrap;
   }
 
-  
-/* pricing */
-.pricing {
-  flex-direction: column;
-}
+  /* pricing */
+  .pricing {
+    flex-direction: column;
+  }
 
-.p-box-1 h1{
-padding: 20px;
-}
+  .p-box-1 h1 {
+    padding: 20px;
+  }
 
-.p-box-1 p {
-  padding: 20px;
-}
+  .p-box-1 p {
+    padding: 20px;
+  }
 
-.p-box-2 {
-  width: auto;
-  height: auto;
-}
+  .p-box-2 {
+    width: auto;
+    height: auto;
+  }
 
-.price-info h3 {
-  font-weight: 700;
-  font-size: 30px;
-}
-}
+  .price-info h3 {
+    font-weight: 700;
+    font-size: 30px;
+  }
 
+  /* faq */
+
+  .faq-bg {
+    width: 100%;
+  }
+
+  .faq {
+    flex-direction: column;
+    padding-top: 100px;
+  }
+
+  .faq h1 {
+    font-size: 26px;
+    width: 100%;
+  }
+
+  .faq-qus-ans {
+    width: auto;
+  }
+}
