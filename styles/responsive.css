@@ -29,12 +29,14 @@
     align-items: center;
     gap: 10px;
     padding: 10px;
+    background-color: aliceblue;
   }
 
   .login {
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
+    width: 100%;
   }
 
   .login button {
@@ -303,5 +305,9 @@
 
   .faq-qus-ans {
     width: auto;
+  }
+
+  .contact h1 {
+    font-size: 40px;
   }
 }
