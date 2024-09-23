@@ -310,4 +310,41 @@
   .contact h1 {
     font-size: 40px;
   }
+
+  .star-bg {
+display: none;
+  }
+  
+  .footer-bg{
+    display: none;
+  }
+  .padding {
+    padding-top: 50px;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-box-1 p{
+    width: 100%;
+    margin: 20px 0;
+   }
+
+  .footer-box-1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-box-2 div {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
 }
