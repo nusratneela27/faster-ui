@@ -1,3 +1,36 @@
+// slider
+
+const images = document.querySelectorAll('.slider img');
+const prevButton = document.getElementById('next-slide');
+const nextButton = document.getElementById('prev-slide');
+
+let currentIndex = 1;
+
+function updateSlider() {
+
+  const translateValue = (currentIndex - 1) * 100;
+  images.forEach((img) => {
+    img.style.transform = `translateX(${translateValue}%)`;
+  });
+}
+
+
+prevButton.addEventListener('click', () => {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  updateSlider();
+});
+
+
+nextButton.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % images.length;
+  updateSlider();
+});
+
+
+updateSlider();
+
+// FAQ
+
 const faqItems = document.querySelectorAll('.faq-qus-ans');
 
 function closeAllAnswers() {
